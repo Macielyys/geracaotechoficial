@@ -1,0 +1,63 @@
+/* Adicione estilos específicos para a página de localização se necessário */
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav li {
+    display: inline;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  section.conteudo {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #ff99cc;
+    padding: 10px;
+    text-align: center;
+  }
+
+
+
+/*------------------------------------*/
+
+body {
+  margin: 0; /* Remova a margem padrão do corpo */
+}
+
+.conteudo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 20px; /* Ajuste conforme necessário para dar espaço suficiente para os botões */
+}
+
+.produto {
+  width: calc(25% - 20px); /* Ajuste a largura conforme necessário */
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+  box-sizing: border-box; /* Garante que a borda não afete a largura total */
+}
+
+.produto img {
+  max-width: 100%;
+  height: auto;
+}
+
+.produto button {
+  margin-top: 10px;
+}
